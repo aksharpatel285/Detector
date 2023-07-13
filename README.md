@@ -6,4 +6,6 @@
 # Using this project you can detect if URl is fake or not.
 # For run this project you need to install Visual Studio code, Android Studio, and xampp.
 
-# First you need to run source/server.py file and then you can detect URL is valid or not.
+# First you need to run SourceCode/server.py file and then you can detect URL is valid or not.
+
+# you can find Android Application code inside the 
