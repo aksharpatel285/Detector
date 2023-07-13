@@ -8,4 +8,6 @@
 
 # First you need to run SourceCode/server.py file and then you can detect URL is valid or not.
 
-# you can find Android Application code inside the 
+# you can find Android Application code inside the "Application" folder.
+# you can find Web Application code inside the "website" folder.
+# you can find Python code inside "SourceCode" folder.
