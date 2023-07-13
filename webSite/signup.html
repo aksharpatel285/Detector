@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+   
+</head>
+<body>
+  <div class="wrapper">
+    <header>Sign Up</header>
+    
+      
+		<form class="login_form" method="post" onsubmit="checkPassword()">
+      <div class="field email">
+        <div class="input-area">
+            <input type="text" placeholder="Full Name">
+            
+          </div>
+          <br>
+        <div class="input-area">
+          <input type="text" placeholder="Email Address">
+                  </div>
+        
+      </div>
+      <div class="field password">
+        <div class="input-area">
+          <input type="password" name="password1" id="ps1" placeholder="Password">
+        </div>
+      </div>
+      
+      <div class="field password">
+        <div class="input-area">
+          <input type="password" name="password2" placeholder="Confirm Password">
+          
+        </div>
+        
+      </div>
+     
+      <input type="submit" value="Sign Up" name="signup">
+    </form>
+    <div class="sign-txt">Already member? <a href="index.html">Login</a></div>
+  </div>
+
+  <script>  
+    function checkPassword() {
+      var pswd1=document.getElementById("ps1").value();
+      alert(pswd1);
+  }
+    </script>
+</body>
+</html>
